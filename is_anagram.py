@@ -16,8 +16,8 @@ word2 = input("Input the second word: ")
 
 print("Are the two words anagrams? ", is_anagram(word1, word2))
 
-print(type(word1))
-print(type(word2))
+#print(type(word1))
+#print(type(word2))
 	
 #print(is_anagram('geek', 'eegk'))
 #print(is_anagram('geek', 'peel'))
