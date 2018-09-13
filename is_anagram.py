@@ -14,10 +14,11 @@ print("This will tell you if two words are anagrams.")
 word1 = input("Input the first word: ")
 word2 = input("Input the second word: ")
 
+result = str( is_anagram(word1, word2))
+#if result = True, convert to Yes
+#if result = Fales, convert to No
+
 print("Are the two words anagrams? ", is_anagram(word1, word2))
 
 #print(type(word1))
 #print(type(word2))
-	
-#print(is_anagram('geek', 'eegk'))
-#print(is_anagram('geek', 'peel'))
