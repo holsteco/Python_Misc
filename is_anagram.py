@@ -9,5 +9,15 @@ from collections import Counter
 def is_anagram(str1, str2):
 	return Counter(str1) == Counter(str2)
 
-print(is_anagram('geek', 'eegk'))
-print(is_anagram('geek', 'peel'))
+print("This will tell you if two words are anagrams.")
+
+word1 = input("Input the first word: ")
+word2 = input("Input the second word: ")
+
+print("Are the two words anagrams? ", is_anagram(word1, word2))
+
+print(type(word1))
+print(type(word2))
+	
+#print(is_anagram('geek', 'eegk'))
+#print(is_anagram('geek', 'peel'))
